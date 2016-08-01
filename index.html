@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="tac.css">
+  <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Exo:600,800,300,300italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+  <script src="tic.js"></script>
+  <script src="dist/sweetalert.min.js"></script>
+  <script src="toe.js"></script>
+</head>
+<body class="Layout">
+
+  <div class="flexGuns">
+
+    <div class="rules left sidebar">
+      <h2>Rules</h2>
+      <p>
+        1. Player X goes first
+      </p>
+      <p>
+        2. First player with 3 in a line wins
+      </p>
+      <p>
+        3. Have fun!
+      </p>
+      <h2>Scores</h2>
+      <p id="scoreX">
+        Player X:
+      </p>
+      <p id="scoreO">
+        Player O:
+      </p>
+      <br>
+      <a href="#" class="button" id="clearBoard">Start Again</a>
+      <br>
+      <a href="#" class="button" id="clearScore">Reset Scores</a>
+    </div>
+
+    <div class="gameboard">
+      <div class="top row">
+        <div class="00 square" data-row='0' data-column='0'></div>
+        <div class="01 square" data-row='0' data-column='1'></div>
+        <div class="02 square" data-row='0' data-column='2'></div>
+      </div>
+      <div class="middle row">
+        <div class="10 square" data-row='1' data-column='0'></div>
+        <div class="11 square" data-row='1' data-column='1'></div>
+        <div class="12 square" data-row='1' data-column='2'></div>
+      </div>
+      <div class="bottom row">
+        <div class="20 square" data-row='2' data-column='0'></div>
+        <div class="21 square" data-row='2' data-column='1'></div>
+        <div class="22 square" data-row='2' data-column='2'></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
