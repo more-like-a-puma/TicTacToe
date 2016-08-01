@@ -7,4 +7,4 @@ Online turn based Tic Tac Toe game.
 2. When you have three pieces in a row you win the round
 3. Log game scores between rounds
 
-Site: http://more-like-a-puma.github.io/tic.html
+Site: http://more-like-a-puma.github.io/ticTacToe/
